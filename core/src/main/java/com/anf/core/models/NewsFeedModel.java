@@ -60,3 +60,4 @@ public class NewsFeedModel {
         return newsList;
     }
 }
+// ***END Code*****

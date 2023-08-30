@@ -71,3 +71,4 @@ public class FetchPageQueryServlet extends SlingAllMethodsServlet {
         }
     }
 }
+// ***END Code*****

@@ -75,3 +75,5 @@ public class NewsFeedModelTest {
         assertEquals(expectedNews, newsFeedModel.getNewsList().get(0));
     }
 }
+
+// ***END Code*****
