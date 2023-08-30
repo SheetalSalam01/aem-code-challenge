@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Implementation-Title: ANF Code Challenge - Repository Structure Packag
+ e
+Content-Package-Roots: /apps,/apps/cq,/apps/dam,/apps/msm,/apps/settin
+ gs,/apps/sling,/apps/wcm
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: SheetalSalam
+Implementation-Vendor-Id: com.anf
+Content-Package-Type: application
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_331
+Content-Package-Description: Empty package that defines the structure 
+ of the Adobe Experience Manager repository the Code packages in this 
+ project deploy into.
+        Any roots in the Code packages of this p
+ roject should have their parent enumerated in the Filters list below.
+Content-Package-Id: com.anf:anf-code-challenge.ui.apps.structure:1.0-S
+ NAPSHOT
+

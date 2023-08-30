@@ -1,5 +1,5 @@
 package com.anf.core.services;
 
 public interface ContentService {
-	void commitUserDetails();
+	boolean commitUserDetails(String firstname, String lastname, int age, String country);
 }

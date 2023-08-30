@@ -1,0 +1,17 @@
+<div id="anf-test-form" class="anf-test-form">
+    <h1>ANF FORMS</h1>
+    <p class="anf-form-message" style="background-color: rgb(237, 158, 158); display: none;">You are not eligible</p>
+
+   <form data-sly-use.container="com.adobe.cq.wcm.core.components.models.form.Container"
+      data-sly-use.grid="com.day.cq.wcm.foundation.model.responsivegrid.ResponsiveGrid"
+       id="${container.id}" name="${container.name}" class="cmp-form ${grid.cssClass}">
+  
+    <div data-sly-resource="${ 'firstname' @ resourceType='/apps/anf-code-challenge/components/form/text' }"></div>
+    <div data-sly-resource="${ 'lastname' @ resourceType='/apps/anf-code-challenge/components/form/text' }"></div>
+    <div data-sly-resource="${ 'age' @ resourceType='/apps/anf-code-challenge/components/form/text' }"></div>
+   <div>
+     <div data-sly-resource="${ 'country' @ resourceType='/apps/anf-code-challenge/components/form/country' }"> </div>
+     </div>
+    <div data-sly-resource="${ 'submit' @ resourceType='/apps/anf-code-challenge/components/form/button' }"></div>
+</form>
+</div>

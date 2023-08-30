@@ -1,0 +1,15 @@
+<div data-sly-use.newsFeedModel="com.anf.core.models.NewsFeedModel">
+	<div data-sly-list.newsFeed="${newsFeedModel.newsList}">
+        <a data-sly-test.url="${newsFeed.url}" href="${url}" >
+            <div >
+                <img data-sly-test.urlImage="${newsFeed.urlImage}"  src="${urlImage}" alt="${newsFeed.title}"/>
+            </div>
+            <div>
+                <p data-sly-test.title="${newsFeed.title}" >${title}</p>
+                <p data-sly-test.desc="${newsFeed.description}">${desc @context="html"}</p>
+                <p data-sly-test.content="${newsFeed.content}">${content @context="html"}</p>             
+                <p data-sly-test.author="${newsFeed.author}">By ${author}</p>
+            </div>
+        </a>
+	</div>
+</div>
